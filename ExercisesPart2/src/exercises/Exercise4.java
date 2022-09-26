@@ -28,7 +28,7 @@ public class Exercise4 {
  * What would be the actual output of the program?
  * Las dos variables dan el mismo valor.
  * How could you modify the program above so that the values of the two variables are swapped successfully?
- * Añadiendo el scanner.
+ * Añadiendo el scanner y una variable auxiliar.
  * 
  */
 
