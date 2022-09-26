@@ -6,7 +6,7 @@ public class Exercise4 {
 
 	public static void main(String[] args) {
 		// declare variables
-		int x, y;
+		int x, y,i;
 		Scanner keyboard = new Scanner (System.in);
 		// enter values
 		System.out.print("Enter value for x ");
@@ -14,8 +14,10 @@ public class Exercise4 {
 		System.out.print("Enter value for y ");
 		y = keyboard.nextInt();
 		// code attempting to swap two variables
+		i = x;
 		x = y;
-		y = x;
+		y = i;
+		
 		//display results
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
